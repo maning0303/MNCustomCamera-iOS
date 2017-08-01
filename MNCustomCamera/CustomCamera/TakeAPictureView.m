@@ -8,9 +8,7 @@
 
 #import "TakeAPictureView.h"
 #import <AVFoundation/AVFoundation.h>
-// 为了导入系统相册
 #import <AssetsLibrary/AssetsLibrary.h>
-
 #import <Photos/Photos.h>
 #import "UIImage+info.h"
 
