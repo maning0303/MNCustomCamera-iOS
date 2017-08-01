@@ -19,6 +19,7 @@
 		E0CA93BF1ECECBCD002E3381 /* UIImage+info.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CA93BD1ECECBCD002E3381 /* UIImage+info.m */; };
 		E0CA93C31ECECCB1002E3381 /* CustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CA93C11ECECCB1002E3381 /* CustomCameraViewController.m */; };
 		E0CA93C41ECECCB1002E3381 /* CustomCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CA93C21ECECCB1002E3381 /* CustomCameraViewController.xib */; };
+		E0CDDA2D1F30789B0067C275 /* mn_camera_01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA2C1F30789B0067C275 /* mn_camera_01.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E0CA93C01ECECCB1002E3381 /* CustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraViewController.h; sourceTree = "<group>"; };
 		E0CA93C11ECECCB1002E3381 /* CustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraViewController.m; sourceTree = "<group>"; };
 		E0CA93C21ECECCB1002E3381 /* CustomCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraViewController.xib; sourceTree = "<group>"; };
+		E0CDDA2C1F30789B0067C275 /* mn_camera_01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mn_camera_01.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		E0CA93791ECECB1D002E3381 = {
 			isa = PBXGroup;
 			children = (
+				E0CDDA2B1F30789B0067C275 /* screenshots */,
 				E0CA93841ECECB1D002E3381 /* MNCustomCamera */,
 				E0CA939E1ECECB1D002E3381 /* MNCustomCameraTests */,
 				E0CA93A91ECECB1D002E3381 /* MNCustomCameraUITests */,
@@ -164,6 +167,14 @@
 				E0CA93C21ECECCB1002E3381 /* CustomCameraViewController.xib */,
 			);
 			path = CustomCamera;
+			sourceTree = "<group>";
+		};
+		E0CDDA2B1F30789B0067C275 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E0CDDA2C1F30789B0067C275 /* mn_camera_01.PNG */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CA93951ECECB1D002E3381 /* LaunchScreen.storyboard in Resources */,
+				E0CDDA2D1F30789B0067C275 /* mn_camera_01.PNG in Resources */,
 				E0CA93921ECECB1D002E3381 /* Assets.xcassets in Resources */,
 				E0CA93C41ECECCB1002E3381 /* CustomCameraViewController.xib in Resources */,
 				E0CA93901ECECB1D002E3381 /* Main.storyboard in Resources */,
@@ -546,6 +558,7 @@
 				E0CA93B11ECECB1D002E3381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0CA93B21ECECB1D002E3381 /* Build configuration list for PBXNativeTarget "MNCustomCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +567,7 @@
 				E0CA93B41ECECB1D002E3381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0CA93B51ECECB1D002E3381 /* Build configuration list for PBXNativeTarget "MNCustomCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +576,7 @@
 				E0CA93B71ECECB1D002E3381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
